@@ -1,4 +1,4 @@
-# INFERRING THE NEURAL BASIS OF BINAURAL DETECTION WITH DEEP NEURAL NETWORKS
+# INFERRING THE NEURAL BASIS OF BINAURAL DETECTION IN HUMANS USING DEEP LEARNING
 
 
 The article for which this code was developed can be found [here](https://www.biorxiv.org/). The core modules in this project were derived/modified from: [Iten, T. Metger, H.Wilming, L. del Rio, and R. Renner. "Discovering physical concepts with neural networks" (2018)](https://github.com/eth-nn-physics/nn_physical_concepts/). Required software is supplied in an Anaconda environment file ('setupEnvironment.yml'). 
