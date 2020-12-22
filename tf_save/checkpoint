@@ -1,0 +1,2 @@
+model_checkpoint_path: "/gpfs01/home/msass39/08_07_20/tf_save/021344_10_1e-03_5e-04_1e-04_256_2_100_0e+00_1_2e-03.ckpt"
+all_model_checkpoint_paths: "/gpfs01/home/msass39/08_07_20/tf_save/021344_10_1e-03_5e-04_1e-04_256_2_100_0e+00_1_2e-03.ckpt"
