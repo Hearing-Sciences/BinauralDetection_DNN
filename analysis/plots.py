@@ -1898,7 +1898,3 @@ def paramdist(allGaborFit_Single1,allGaborFit_Single2):
     return
 
 
-#%%
-# import pickle
-# pickle.dump([allActivations_noiseITD, allGaborFitParams_noiseITD, polarityCorrect, allVS_noise, layerActivations_noise], open("ITDdata.p", "wb"))
-# [allActivations_noiseITD, allGaborFitParams_noiseITD, polarityCorrect, allVS_noise, layerActivations_noise] = pickle.load(open("ITDdata.p","rb"))
