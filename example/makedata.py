@@ -28,7 +28,7 @@ import datetime
 parentPath = Path().resolve().parent
 sys.path.insert(0,str(parentPath))
 
-# Scinet imports
+# dnnbmld imports
 from dnnbmld import *
 import dnnbmld.ed_BMLD as edq
 
@@ -36,8 +36,8 @@ import dnnbmld.ed_BMLD as edq
 #%% PARAMRETERS
 
 stimParams = {"toneFreq": [500,500], # Hz
-          "noiseAmp": [60,60], # dB SPL
-          "toneAmp": [0,50], # dB SPL
+          "noiseAmp": [60,60], # dB
+          "toneAmp": [0,50], # dB
           "transformType": "azimuth", 
           "toneAziPhase": [-90,90], # azimuth angle, degrees
           "noiseAziPhase": [-90,90]} # azimuth angle, degrees
