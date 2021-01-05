@@ -26,7 +26,7 @@ import datetime
 parentPath = Path().resolve().parent
 sys.path.insert(0,str(parentPath))
 
-# Scinet imports
+# dnnbmld imports
 from dnnbmld import *
 import dnnbmld.io as io
 import dnnbmld.ed_BMLD as edq # ed_BMLD, ed_BMLD_reformattedOriginal , ed_BMLD_original      # # #  need to update in analyses.py too
