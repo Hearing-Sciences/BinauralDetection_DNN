@@ -16,15 +16,6 @@
 
 
 
-#%% TO CONSIDER
-# Use of auditory filter (OLD:wfwnB = butter_bandpass_filter(wn, 500+38.35, 500-38.35, 10000, order=6))
-# Transforming pure tone based on phase rather than samples?
-# More involved/impressive binaural transform. HRTF
-# Correct BMLD for sampling limit?
-# Is it right to implement an IPD for noise that does not have a frequency ... ?
-# Need to sort out noise transform (order of filtering, is odd to say the least)
-
-
 #%% IMPORT MODULES
 import numpy as np
 from scipy.signal import butter, lfilter 
@@ -35,7 +26,7 @@ import dnnbmld.io as io
 
 
 #%% MAIN FUNCTIONS
-def BMLD_data(stimParams, # using dictionary for stimulus parameters [could replace this approach with **kwargs]
+def BMLD_data(stimParams, 
               drawN=None, # draw this many values (only relevant for single number parameters or ranges)
               Fs=20000,
               startingPhase=None, # if None this will be randomised
@@ -95,7 +86,7 @@ def BMLD_data(stimParams, # using dictionary for stimulus parameters [could repl
         elif transformType == 'phasic':
             pt_left, pt_right, pt_ITD = transform_phasic(pt,pt_aORp,pt_fre,Fs,padding)
             pt_ILD = 0
-            no_left, no_right, no_ITD = transform_phasic(no,no_aORp,pt_fre,Fs,padding) # IPD of noise that does not have a frequency ... ?
+            no_left, no_right, no_ITD = transform_phasic(no,no_aORp,pt_fre,Fs,padding) 
             no_ILD = 0
         # filter_white_noise
         no_left = filter_white_noise(no_left,no_amp+no_ILD,Fs)
