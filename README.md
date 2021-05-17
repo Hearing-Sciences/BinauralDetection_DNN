@@ -1,5 +1,4 @@
-# INFERRING THE NEURAL BASIS OF BINAURAL DETECTION USING DEEP LEARNING
-
+# Inferring the neural basis of binaural phenomena with a modified autoencoder
 
 The article for which this code was developed can be found [here](https://www.biorxiv.org/content/10.1101/2021.01.05.425246v3). The core modules in this project were derived/modified from: [Iten, T. Metger, H.Wilming, L. del Rio, and R. Renner. "Discovering physical concepts with neural networks" (2018)](https://github.com/eth-nn-physics/nn_physical_concepts/). Required software is supplied in an Anaconda environment file ('setupEnvironment.yml'). 
 
