@@ -41,7 +41,7 @@ stimParams = {"toneFreq": [500,500], # Hz
           "transformType": "azimuth", 
           "toneAziPhase": [-90,90], # azimuth angle, degrees
           "noiseAziPhase": [-90,90]} # azimuth angle, degrees
-N = 10000 # 1000000  # draw this many random values are drawn
+N = 1000000 # 1000000  # draw this many random values are drawn
 sampleRate = 20000
 datasetName = 'dataset1' # Name for dataset
 
