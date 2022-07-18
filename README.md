@@ -13,6 +13,6 @@ The folders in this repository are:
 
 + **'data'** and **'tf_log'** These folders are not in the repository. However, they will be created if users opt to store simulation data or record tensorboard logs when training a deep neural network.
 
-+ Jupyter notebook that covers the paramtric-based network.
++ Jupyter notebook that covers the paramtric-based network (still to do).
 
 *For any queries, please email (samuel_smith@meei.harvard.edu).*
